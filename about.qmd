@@ -1,0 +1,28 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  # template: trestles
+  template: jolla
+  # links:
+  #   - icon: twitter
+  #     text: Twitter
+  #     href: https://twitter.com/Adtarie
+  #   - icon: linkedin
+  #     text: LinkedIn
+  #     href: https://www.linkedin.com/in/adityaariewijaya/
+  #   - icon: github
+  #     text: Github
+  #     href: https://github.com/ariewjy
+
+---
+
+Hi there 👋 I am Arie!
+
+I worked as a geoscientist / petrophysicists with ten years of experience in the energy industry. I care about implementing a data-driven workflow in every part of my works, and I believe environmental is as crucial as energy is, in today's and future's society. 
+<!-- When not working, I am usually spending my time alone as introvert, or more often than not busy as a full-time Dad!  -->
+
+I am the person behind [plotpetrophysics.xyz](https://plotpetrophysics.xyz/). A responsive web application to load a LAS file (a well-log data format), plotting, do some basic petrophysical analysis. Outside of my daily jobs, I enjoyed my time playing music (mostly guitars/drums), reading, learning some nice dataviz, or just taking care of my FPL team. This personal website is where put my thoughts, publications, and whatnot. 
+<!-- I always into manga like One Piece and Black Clover, but recently found manhwa like The Legend of Northern Blade pretty awesome too!  -->
+
+Thanks for dropping by!

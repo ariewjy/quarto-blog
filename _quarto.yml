@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Geoscientist Who Codes"
+  description: "Aditya Arie Wijaya Personal Website"
+  site-url: https://ariewjy.github.io/
+  # reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  favicon: logo_rounded.png
+  twitter-card: true
+  open-graph: true
+  sidebar: 
+    style: docked
+  navbar:
+    background: "#F6F0ED"
+    foreground: "#0B2027"
+    pinned: false
+    # left:
+    #   - text: "Geoscientist Who Codes"
+    right:
+      - text: "About" 
+        file: about.qmd
+      - text: "Blog"
+        file: index.qmd
+      - icon: github
+        href: https://github.com/ariewjy
+      - icon: twitter
+        href: https://twitter.com/Adtarie
+      - icon: linkedin
+        href: https://www.linkedin.com/in/adityaariewijaya/
+  page-footer: 
+    right:
+      - text: "Copyright 2022, Aditya Arie Wijaya" 
+    left:
+      - href: https://www.quarto.org
+        text: Built with Quarto
+  page-navigation: true
+format:
+  html:
+    theme:
+      light: default
+      # dark: darkly
+    css: styles.css
+    highlight-style: eiffel
+    toc: true
+    toc-location: right
+execute: 
+  freeze: auto
+
+
+
