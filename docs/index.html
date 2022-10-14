@@ -97,7 +97,8 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:image" content="https://ariewjy.github.io/posts/welcome/thumbnail.jpg">
 <meta property="og:site-name" content="Geoscientist Who Codes">
 <meta name="twitter:title" content="Geoscientist Who Codes - Aditya Arie Wijaya">
-<meta name="twitter:image" content="https://ariewjy.github.io/posts/welcome/thumbnail.jpg">
+<meta name="twitter:image" content="https://ariewjy.github.io/profile.jpg">
+<meta name="twitter:creator" content="@adtarie">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -186,8 +187,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1665244800000" data-listing-file-modified-sort="1665576221631" data-listing-reading-time-sort="0.125">
+<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1665244800000" data-listing-file-modified-sort="1665782931078" data-listing-reading-time-sort="0.13">
 <div class="thumbnail">
 <p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -228,7 +250,7 @@ Aditya Arie Wijaya
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1664985600000" data-listing-file-modified-sort="1665576121557" data-listing-reading-time-sort="2.625">
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1664985600000" data-listing-file-modified-sort="1665782934155" data-listing-reading-time-sort="2.625">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -379,7 +401,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Copyright 2022, Aditya Arie Wijaya
+ Copyright, Aditya Arie Wijaya
   </li>  
 </ul>
     </div>

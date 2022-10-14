@@ -1,5 +1,7 @@
 ---
 title: "Post With Code"
+# description: |
+#   This is just another description in another blog-post
 author: "Aditya Arie Wijaya"
 title-block-banner: true
 date: "2022-10-09"
@@ -18,6 +20,6 @@ mpg
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
-```
+``` 
 
 # This is not a code

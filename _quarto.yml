@@ -7,11 +7,19 @@ website:
   description: "Aditya Arie Wijaya Personal Website"
   site-url: https://ariewjy.github.io/
   # reader-mode: true
+  # cookie-consent:
+  #   type: express
+  #   style: headline
+  #   palette: light
   search:
     location: navbar
     type: overlay
   favicon: logo_rounded.png
-  twitter-card: true
+  twitter-card:
+    image: profile.jpg
+    creator: "@adtarie"
+    card-style: summary_large_image
+  # site-url: 
   open-graph: true
   sidebar: 
     style: docked
@@ -19,8 +27,6 @@ website:
     background: "#F6F0ED"
     foreground: "#0B2027"
     pinned: false
-    # left:
-    #   - text: "Geoscientist Who Codes"
     right:
       - text: "About" 
         file: about.qmd
@@ -34,7 +40,7 @@ website:
         href: https://www.linkedin.com/in/adityaariewijaya/
   page-footer: 
     right:
-      - text: "Copyright 2022, Aditya Arie Wijaya" 
+      - text: "Copyright, Aditya Arie Wijaya" 
     left:
       - href: https://www.quarto.org
         text: Built with Quarto
@@ -42,13 +48,25 @@ website:
 format:
   html:
     theme:
-      light: default
+      light: litera
       # dark: darkly
     css: styles.css
     highlight-style: eiffel
     toc: true
     toc-location: right
-    fontsize: 0.95em
+    fontsize: 1em
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    # mainfont: "system-ui"
+    # monofont: "system-ui"
+    footnotes-hover: true
+    citation: true
+    citation-location: margin
+    comments:
+      utterances:
+        repo: ariewjy/quarto-blog
 execute: 
   freeze: auto
 
