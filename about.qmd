@@ -4,16 +4,16 @@ image: profile.jpg
 about:
   # template: trestles
   template: jolla
-  # links:
-  #   - icon: twitter
-  #     text: Twitter
-  #     href: https://twitter.com/Adtarie
-  #   - icon: linkedin
-  #     text: LinkedIn
-  #     href: https://www.linkedin.com/in/adityaariewijaya/
-  #   - icon: github
-  #     text: Github
-  #     href: https://github.com/ariewjy
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Adtarie
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/adityaariewijaya/
+    - icon: github
+      text: Github
+      href: https://github.com/ariewjy
 
 comments: false
 citation: false

@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   title: "Geoscientist Who Codes"
   description: "Aditya Arie Wijaya Personal Website"
@@ -14,21 +14,22 @@ website:
   search:
     location: navbar
     type: overlay
-  favicon: logo_rounded.png
+  favicon: img/logo_rounded.png
   twitter-card:
-    image: profile.jpg
-    creator: "@adtarie"
+    image: img/profile.jpg
+    creator: "@Adtarie"
     card-style: summary_large_image
-  # site-url: 
+  # site-url:
   open-graph: true
-  sidebar: 
+  sidebar:
     style: docked
   navbar:
+    # logo: logo_rounded.png
     background: "#F6F0ED"
     foreground: "#0B2027"
     pinned: false
     right:
-      - text: "About" 
+      - text: "About"
         file: about.qmd
       - text: "Blog"
         file: index.qmd
@@ -38,9 +39,9 @@ website:
         href: https://twitter.com/Adtarie
       - icon: linkedin
         href: https://www.linkedin.com/in/adityaariewijaya/
-  page-footer: 
+  page-footer:
     right:
-      - text: "Copyright, Aditya Arie Wijaya" 
+      - text: "Copyright, Aditya Arie Wijaya"
     left:
       - href: https://www.quarto.org
         text: Built with Quarto
@@ -54,7 +55,7 @@ format:
     highlight-style: eiffel
     toc: true
     toc-location: right
-    fontsize: 1em
+    fontsize: 0.95em
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
@@ -67,8 +68,5 @@ format:
     comments:
       utterances:
         repo: ariewjy/quarto-blog
-execute: 
+execute:
   freeze: auto
-
-
-
