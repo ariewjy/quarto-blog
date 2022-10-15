@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Geoscientist Who Codes"
-  description: "Aditya Arie Wijaya Personal Website"
+  title: "Aditya Arie Wijaya"
+  description: "Personal Website"
   site-url: https://ariewjy.github.io/
   # reader-mode: true
   # cookie-consent:
@@ -55,7 +55,7 @@ format:
     highlight-style: eiffel
     toc: true
     toc-location: right
-    fontsize: 0.95em
+    fontsize: 1em
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
