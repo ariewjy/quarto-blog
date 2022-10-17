@@ -2,12 +2,11 @@
 title: "Post With Code"
 # description: |
 #   This is just another description in another blog-post
-author: "Aditya Arie Wijaya"
 title-block-banner: true
 date: "2022-10-09"
 categories: [news, code, analysis]
 image: "image.jpg"
-draft: true
+draft: false
 ---
 
 This is a post with executable code.

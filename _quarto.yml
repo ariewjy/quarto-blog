@@ -35,12 +35,12 @@ website:
         file: index.qmd
       - text: "Publications"
         file: publications.qmd
-      - icon: github
-        href: https://github.com/ariewjy
-      - icon: twitter
-        href: https://twitter.com/Adtarie
-      - icon: linkedin
-        href: https://www.linkedin.com/in/adityaariewijaya/
+      # - icon: github
+      #   href: https://github.com/ariewjy
+      # - icon: twitter
+      #   href: https://twitter.com/Adtarie
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/adityaariewijaya/
   page-footer:
     right:
       - text: "Copyright, Aditya Arie Wijaya"
@@ -51,13 +51,14 @@ website:
 format:
   html:
     theme:
-      light: litera
+      ember.scss
+      # light: litera
       # dark: darkly
     css: styles.css
     highlight-style: eiffel
     toc: true
     toc-location: right
-    fontsize: 1em
+    # fontsize: 1em
     code-link: true
     anchor-sections: true
     fig-cap-location: margin

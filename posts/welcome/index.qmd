@@ -1,10 +1,8 @@
 ---
 title: "Welcome To My Blog"
-author: "Aditya Arie Wijaya"
-title-block-banner: true
 date: "2022-10-06"
 categories: [news]
-draft: true
+draft: false
 ---
 
 This is the first post in a Quarto blog. Welcome!

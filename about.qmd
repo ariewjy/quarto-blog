@@ -6,15 +6,19 @@ about:
   template: jolla
   links:
     - icon: file-text-fill
-      text: Resume
+      text: CV
       href: https://docs.google.com/document/d/1sFA9gE1q_tyZYNHuV9NagjT0Bu9iJpsHGJKCd7h0hR0/edit?usp=sharing
     - icon: linkedin
-      text: LinkedIn
+      text: Li
       href: https://www.linkedin.com/in/adityaariewijaya/
     - icon: github
-      text: Github
+      text: git
       href: https://github.com/ariewjy
-
+    - icon: twitter
+      href: https://twitter.com/Adtarie
+# page-layout: full
+# title-block-banner: true
+page-progression-direction: ltr
 comments: false
 citation: false
 ---

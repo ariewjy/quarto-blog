@@ -1,7 +1,5 @@
 ---
 title: "I Thought I Failed the Interview"
-author: "Aditya Arie Wijaya"
-title-block-banner: true
 date: "2022-08-29"
 categories: [career]
 draft: false
