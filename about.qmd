@@ -1,13 +1,13 @@
 ---
-title: "About"
+title: "Aditya Arie Wijaya"
 image: img/profile.jpg
 about:
   # template: trestles
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Adtarie
+    - icon: file-text-fill
+      text: Resume
+      href: https://docs.google.com/document/d/1sFA9gE1q_tyZYNHuV9NagjT0Bu9iJpsHGJKCd7h0hR0/edit?usp=sharing
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/adityaariewijaya/
@@ -21,8 +21,10 @@ citation: false
 
 Hi there 👋 I am Arie!
 
-Geological Engineering by background, Geoscientist/ Petrophysicists by title. Ten years of experience in the energy industry, care about data-driven decision making, and environmental importance in the energy transition.
+I have Geological Engineering background, and worked as a Geoscientist/ Petrophysicists with about ten years of experience in the energy industry. I am interested in subsurface data and its intersection with the sustainability to ensure the inclusiveness of energy security for everyone.
 
-My recent project at **[plotpetrophysics.xyz](https://plotpetrophysics.xyz/)** is a web application to load a LAS file (a well-log data format), plotting, do some basic petrophysical analysis. 
+Recently, I made a web application to load a LAS file (a well-log data format), plotting, do some basic petrophysical analysis at [**plotpetrophysics.xyz**](https://plotpetrophysics.xyz/).
 
-My free time spent between cooking, reading, or explore the world of coding. Thanks for dropping by!
+My free time spent between cooking, reading, or exploring the world of coding.
+
+Thanks for dropping by!

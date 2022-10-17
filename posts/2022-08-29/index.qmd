@@ -1,22 +1,16 @@
 ---
-title: "Welcome To My Blog"
+title: "I Thought I Failed the Interview"
 author: "Aditya Arie Wijaya"
 title-block-banner: true
-date: "2022-10-06"
-categories: [news]
-draft: true
+date: "2022-08-29"
+categories: [career]
+draft: false
 ---
 
-This is the first post in a Quarto blog. Welcome!
+In the early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question and I said I don't know, but somehow I got the Job.
 
-![](thumbnail.jpg)
+![Image by Unsplash](preview.jpeg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
-
-<blockquote> 
-"This was early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question for me to answer".
-</blockquote>
- 
 My career started even before that. In 2011-2012, during my last year of studies and close to graduation day I spent around a year to do side projects with my lecturers, from geological mapping, seismic interpretation, joint-study field evaluation, basin modeling, to petrophysical analysis. 
 
 Not until 2013-2014, where I got my first industrial role in Jakarta, the capital city of Indonesia, moving away from freelance project in Yogyakarta. Here I mostly worked on petrophysical analysis, evaluating more than 100 wells in clastics and carbonate reefal reservoir, helping the team to update their static model. We planned to do EOR (waterflooding) at the time, so simulation is very critical before economical decision was made. 
@@ -28,10 +22,13 @@ However, somehow I got to meet the interviewer, answer few tehnical questions an
 I knew at that time that I have no idea what was supposed to be the answer to the question, but I was too afraid that I would mess my chance to get the gig. I was not esactly remembered how long I take the time to answer, but eventually I come to a conclusion -- I should be honest. 
 
 I said: 
+
 <blockquote> 
 "I Do Not Know".
 </blockquote> 
+
 It took her 5 seconds, and as she smiled she said:
+
 <blockquote> 
 "Well, I Do Not Expect you to be able to Answer the question given the limited experience you have with well logs"
 </blockquote>

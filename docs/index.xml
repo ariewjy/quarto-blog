@@ -5,101 +5,38 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Aditya Arie Wijaya</title>
+<title>Geoscientist Who Codes</title>
 <link>https://ariewjy.github.io/index.html</link>
 <atom:link href="https://ariewjy.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Personal Website</description>
+<description>personal thoughts and whatnot</description>
 <generator>quarto-1.1.251</generator>
-<lastBuildDate>Sat, 08 Oct 2022 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 28 Aug 2022 16:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
+  <title>I Thought I Failed the Interview</title>
   <dc:creator>Aditya Arie Wijaya</dc:creator>
-  <link>https://ariewjy.github.io/posts/post-with-code/index.html</link>
-  <description><![CDATA[ <p>This is a post with executable code.</p>
-<section id="this-is-a-code" class="level1"><h1>This is a Code</h1>
-<div class="cell">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;">)</span></span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-✔ ggplot2 3.3.6     ✔ purrr   0.3.4
-✔ tibble  3.1.8     ✔ dplyr   1.0.9
-✔ tidyr   1.2.0     ✔ stringr 1.4.0
-✔ readr   2.1.2     ✔ forcats 0.5.1
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()</code></pre>
-</div>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;">mpg</span></span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 234 × 11
-   manufacturer model      displ  year   cyl trans drv     cty   hwy fl    class
-   &lt;chr&gt;        &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;
- 1 audi         a4           1.8  1999     4 auto… f        18    29 p     comp…
- 2 audi         a4           1.8  1999     4 manu… f        21    29 p     comp…
- 3 audi         a4           2    2008     4 manu… f        20    31 p     comp…
- 4 audi         a4           2    2008     4 auto… f        21    30 p     comp…
- 5 audi         a4           2.8  1999     6 auto… f        16    26 p     comp…
- 6 audi         a4           2.8  1999     6 manu… f        18    26 p     comp…
- 7 audi         a4           3.1  2008     6 auto… f        18    27 p     comp…
- 8 audi         a4 quattro   1.8  1999     4 manu… 4        18    26 p     comp…
- 9 audi         a4 quattro   1.8  1999     4 auto… 4        16    25 p     comp…
-10 audi         a4 quattro   2    2008     4 manu… 4        20    28 p     comp…
-# … with 224 more rows
-# ℹ Use `print(n = ...)` to see more rows</code></pre>
-</div>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;">(</span>data <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">mpg</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;">+</span> </span>
-<span>  <span class="fu" style="color: #4758AB;"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op" style="color: #5E5E5E;">(</span>mapping <span class="op" style="color: #5E5E5E;">=</span> <span class="fu" style="color: #4758AB;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;">(</span>x <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">displ</span>, y <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">hwy</span><span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">)</span></span></code></pre></div>
-<div class="cell-output-display">
-<p><img src="https://ariewjy.github.io/posts/post-with-code/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-</section><section id="this-is-not-a-code" class="level1"><h1>This is not a code</h1>
-
-
-</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ariewijaya2022,
-  author = {Aditya Arie Wijaya},
-  editor = {},
-  title = {Post {With} {Code}},
-  date = {2022-10-09},
-  url = {https://ariewjy.github.io//posts/post-with-code},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ariewijaya2022" class="csl-entry quarto-appendix-citeas">
-Aditya Arie Wijaya. 2022. <span>“Post With Code.”</span> October 9,
-2022. <a href="https://ariewjy.github.io//posts/post-with-code">https://ariewjy.github.io//posts/post-with-code</a>.
-</div></div></section></div> ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://ariewjy.github.io/posts/post-with-code/index.html</guid>
-  <pubDate>Sat, 08 Oct 2022 16:00:00 GMT</pubDate>
-  <media:content url="https://ariewjy.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Aditya Arie Wijaya</dc:creator>
-  <link>https://ariewjy.github.io/posts/welcome/index.html</link>
+  <link>https://ariewjy.github.io/posts/2022-08-29/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://ariewjy.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-<blockquote class="blockquote">
-“This was early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question for me to answer”.
-</blockquote>
+<p>In the early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question and I said I don’t know, but somehow I got the Job.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://ariewjy.github.io/posts/2022-08-29/preview.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption margin-caption">Image by Unsplash</figcaption><p></p>
+</figure>
+</div>
 <p>My career started even before that. In 2011-2012, during my last year of studies and close to graduation day I spent around a year to do side projects with my lecturers, from geological mapping, seismic interpretation, joint-study field evaluation, basin modeling, to petrophysical analysis.</p>
 <p>Not until 2013-2014, where I got my first industrial role in Jakarta, the capital city of Indonesia, moving away from freelance project in Yogyakarta. Here I mostly worked on petrophysical analysis, evaluating more than 100 wells in clastics and carbonate reefal reservoir, helping the team to update their static model. We planned to do EOR (waterflooding) at the time, so simulation is very critical before economical decision was made.</p>
 <p>Fast forward to March 2014, through some luck and intentional effort, I managed to secure an interview with my current employer for an entry level position as petrophysicist/ geoscientist. The interview was a bit “drama” at first, cause the interviewer was changed at the last minute. Nerveousness was at its peak.</p>
 <p>However, somehow I got to meet the interviewer, answer few tehnical questions and non-technical questions. Right before we end the interview, she asked me the final technical questions. The question is about intutitive meaning of when density and neutron log is overlayed each other. She said she just need a straightforward answer, two words not more.</p>
 <p>I knew at that time that I have no idea what was supposed to be the answer to the question, but I was too afraid that I would mess my chance to get the gig. I was not esactly remembered how long I take the time to answer, but eventually I come to a conclusion – I should be honest.</p>
-I said:
+<p>I said:</p>
 <blockquote class="blockquote">
 “I Do Not Know”.
 </blockquote>
-It took her 5 seconds, and as she smiled she said:
+<p>It took her 5 seconds, and as she smiled she said:</p>
 <blockquote class="blockquote">
 “Well, I Do Not Expect you to be able to Answer the question given the limited experience you have with well logs”
 </blockquote>
@@ -112,19 +49,19 @@ It took her 5 seconds, and as she smiled she said:
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ariewijaya2022,
   author = {Aditya Arie Wijaya},
   editor = {},
-  title = {Welcome {To} {My} {Blog}},
-  date = {2022-10-06},
-  url = {https://ariewjy.github.io//posts/welcome},
+  title = {I {Thought} {I} {Failed} the {Interview}},
+  date = {2022-08-29},
+  url = {https://ariewjy.github.io//posts/2022-08-29},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ariewijaya2022" class="csl-entry quarto-appendix-citeas">
-Aditya Arie Wijaya. 2022. <span>“Welcome To My Blog.”</span> October 6,
-2022. <a href="https://ariewjy.github.io//posts/welcome">https://ariewjy.github.io//posts/welcome</a>.
+Aditya Arie Wijaya. 2022. <span>“I Thought I Failed the
+Interview.”</span> August 29, 2022. <a href="https://ariewjy.github.io//posts/2022-08-29">https://ariewjy.github.io//posts/2022-08-29</a>.
 </div></div></section></div> ]]></description>
-  <category>news</category>
-  <guid>https://ariewjy.github.io/posts/welcome/index.html</guid>
-  <pubDate>Wed, 05 Oct 2022 16:00:00 GMT</pubDate>
-  <media:content url="https://ariewjy.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <category>career</category>
+  <guid>https://ariewjy.github.io/posts/2022-08-29/index.html</guid>
+  <pubDate>Sun, 28 Aug 2022 16:00:00 GMT</pubDate>
+  <media:content url="https://ariewjy.github.io/posts/2022-08-29/preview.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

@@ -10,5 +10,20 @@
   },
   "about.qmd": {
     "about.html": "ff772121"
+  },
+  "publications.qmd": {
+    "publications.html": "83231d35"
+  },
+  "cv.qmd": {
+    "cv.html": "132c4fd8"
+  },
+  "posts/2022-08-29/2022-08-29-said-i-dont-know-but-i-got-the-job.qmd": {
+    "2022-08-29-said-i-dont-know-but-i-got-the-job.html": "a26aba92"
+  },
+  "posts/2022-08-29/said-i-dont-know-but-i-got-the-job.qmd": {
+    "said-i-dont-know-but-i-got-the-job.html": "7c3030d9"
+  },
+  "posts/2022-08-29/index.qmd": {
+    "index.html": "78cbf4b1"
   }
 }
