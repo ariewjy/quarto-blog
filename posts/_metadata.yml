@@ -29,3 +29,7 @@ author:
 
 # Default fields for citation
 citation: true
+
+# set up code folds as true
+code-fold: true
+code-line-numbers: true

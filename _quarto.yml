@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 3600
 
 website:
   title: "Geoscientist Who Codes"
@@ -24,6 +26,7 @@ website:
   sidebar:
     style: docked
   navbar:
+    type: light
     # logo: logo_rounded.png
     background: "#F6F0ED"
     foreground: "#0B2027"
@@ -56,12 +59,12 @@ format:
       # dark: darkly
     css: styles.css
     highlight-style: eiffel
-    toc: true
-    toc-location: right
+    # toc: true
+    # toc-location: right
     # fontsize: 1em
     code-link: true
     anchor-sections: true
-    fig-cap-location: margin
+    fig-cap-location: bottom
     reference-location: margin
     # mainfont: "system-ui"
     # monofont: "system-ui"

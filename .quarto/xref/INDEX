@@ -25,5 +25,11 @@
   },
   "posts/2022-08-29/index.qmd": {
     "index.html": "78cbf4b1"
+  },
+  "posts/2022-08-29_my-first-gig/index.qmd": {
+    "index.html": "317ac056"
+  },
+  "posts/post-with-code/index.ipynb": {
+    "index.html": "9d400066"
   }
 }
