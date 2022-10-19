@@ -34,8 +34,8 @@ website:
     right:
       - text: "About"
         file: about.qmd
-      - text: "Blog"
-        file: index.qmd
+      # - text: "Blog"
+      #   file: index.qmd
       - text: "Publications"
         file: publications.qmd
       # - icon: github
