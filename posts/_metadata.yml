@@ -33,3 +33,6 @@ citation: true
 # set up code folds as true
 code-fold: true
 code-line-numbers: true
+
+#setting up page layout
+page-layout: article

@@ -1,1 +1,1 @@
-{"entries":[{"order":{"number":1,"section":[0,2,0,0,0,0,0]},"key":"fig-haha","caption":"Example Scatterplot."},{"order":{"number":2,"section":[0,3,0,0,0,0,0]},"key":"fig-tiles","caption":"Example Barchart."}],"headings":["this-is-an-r-code","this-is-a-python-code","another-python-code"]}
+{"headings":["this-is-an-r-code","this-is-a-python-code","another-python-code"],"entries":[{"caption":"Example Barchart.","order":{"section":[0,3,0,0,0,0,0],"number":2},"key":"fig-tiles"},{"caption":"Example Scatterplot.","order":{"section":[0,2,0,0,0,0,0],"number":1},"key":"fig-haha"}]}

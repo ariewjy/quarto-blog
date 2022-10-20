@@ -17,7 +17,7 @@ about:
     - icon: twitter
       text: tweet
       href: https://twitter.com/Adtarie
-# page-layout: full
+page-layout: article
 # title-block-banner: true
 page-progression-direction: ltr
 comments: false
@@ -33,3 +33,5 @@ Recently, I made a web application to load a LAS file (a well-log data format), 
 My free time spent between cooking, reading, or exploring the world of coding.
 
 Thanks for dropping by!
+
+

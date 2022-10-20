@@ -5,10 +5,12 @@ title-block-banner: true
 page-layout: full
 comments: false
 citation: false
+page-layout: article
 # bibliography: papers.bib
 # nocite: |
 #   @*
 ---
+
 ### 2022
 1. **Critical Porosity in Understanding Acoustic Porosity Anomalies. A Case Study in Complex Carbonate Reservoir in Indonesia**. Wijaya, Aditya Arie, Kunaifi, Sunawar,  Laya, Krishna Pratama, Luqman, Ramadhan, Dimmas. Proceedings, Indonesia Petroleum Association. 46th Annual Convention & Exhibition Sep 2022. [PDF](papers/IPA22-G-23.pdf)
 

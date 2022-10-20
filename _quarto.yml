@@ -34,8 +34,8 @@ website:
     right:
       - text: "About"
         file: about.qmd
-      # - text: "Blog"
-      #   file: index.qmd
+      - text: "Blog"
+        file: index.qmd
       - text: "Publications"
         file: publications.qmd
       # - icon: github
@@ -54,10 +54,10 @@ website:
 format:
   html:
     theme:
-      ember.scss
+      litera-v2.scss
       # light: litera
       # dark: darkly
-    css: styles.css
+    css: litera-v2.scss
     highlight-style: eiffel
     # toc: true
     # toc-location: right
@@ -74,5 +74,6 @@ format:
     comments:
       utterances:
         repo: ariewjy/quarto-blog
+
 execute:
   freeze: auto
