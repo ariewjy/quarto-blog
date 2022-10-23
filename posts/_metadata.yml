@@ -7,7 +7,7 @@ freeze: true
 title-block-banner: "#F6F0ED"
 
 # Enable CC licence appendix
-license: "CC BY"
+# license: "CC BY"
 
 # Default for table of contents
 toc: true
@@ -28,7 +28,7 @@ author:
     # affiliation-url:
 
 # Default fields for citation
-citation: true
+# citation: false
 
 # set up code folds as true
 code-fold: true
@@ -36,3 +36,4 @@ code-line-numbers: true
 
 #setting up page layout
 page-layout: article
+page-width: 100

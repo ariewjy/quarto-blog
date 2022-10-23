@@ -7,7 +7,7 @@ project:
 website:
   title: "Geoscientist Who Codes"
   description: "Personal Website"
-  site-url: https://ariewjy.github.io/
+  site-url: ariewjy.github.io
   # reader-mode: true
   # cookie-consent:
   #   type: express
@@ -30,7 +30,7 @@ website:
     # logo: logo_rounded.png
     background: "#F6F0ED"
     foreground: "#0B2027"
-    pinned: false
+    pinned: true
     right:
       - text: "About"
         file: about.qmd
@@ -54,10 +54,10 @@ website:
 format:
   html:
     theme:
-      litera-v2.scss
+      [styles.scss]
       # light: litera
       # dark: darkly
-    css: litera-v2.scss
+    css: styles.scss
     highlight-style: eiffel
     # toc: true
     # toc-location: right
@@ -65,15 +65,15 @@ format:
     code-link: true
     anchor-sections: true
     fig-cap-location: bottom
-    reference-location: margin
+    reference-location: document
     # mainfont: "system-ui"
     # monofont: "system-ui"
     footnotes-hover: true
     citation: true
+    appendix-style: default
     citation-location: margin
     comments:
       utterances:
         repo: ariewjy/quarto-blog
-
 execute:
   freeze: auto

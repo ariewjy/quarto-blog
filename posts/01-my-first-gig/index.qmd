@@ -1,13 +1,14 @@
 ---
-title: "I Thought I Failed the Interview"
+title: "My First Interview in 500 Fortune Company"
+description: I Got the Job Because I Said I Don't Know
 date: "2022-08-29"
 categories: [career]
 draft: true
 ---
 
-In the early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question and I said I don't know, but somehow I got the Job.
-
 ![Image by Unsplash](preview.jpeg)
+
+In the early 2013, around March, I was getting an interview on the 500 Fortune company, where my interviewer asked me a difficult question and I said I don't know, but somehow I got the Job.
 
 My career started even before that. In 2011-2012, during my last year of studies and close to graduation day I spent around a year to do side projects with my lecturers, from geological mapping, seismic interpretation, joint-study field evaluation, basin modeling, to petrophysical analysis. 
 
@@ -21,15 +22,12 @@ I knew at that time that I have no idea what was supposed to be the answer to th
 
 I said: 
 
-<blockquote> 
-"I Do Not Know".
-</blockquote> 
+>"I Do Not Know".
 
 It took her 5 seconds, and as she smiled she said:
 
-<blockquote> 
-"Well, I Do Not Expect you to be able to Answer the question given the limited experience you have with well logs"
-</blockquote>
+> "Well, I Do Not Expect you to be able to Answer the question given the limited experience you have with well logs"
+
 
 She explained to me that the question is to test me. She knew that I would probably did not know the answer to the question, her target was to know whether I will spit out my honest truth (that I dont know), or try to be smart by spitting some BS. I was glad I choose the first. 
 

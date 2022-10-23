@@ -31,5 +31,15 @@
   },
   "posts/post-with-code/index.ipynb": {
     "index.html": "9d400066"
+  },
+  "posts/2022-10-21-migrating-to-quarto/index.qmd": {
+    "index.html": "7f59148d"
+  },
+  "posts/01-my-first-gig/index.qmd": {
+    "index.html": "35393cc9"
+  },
+  "posts/02-migrating-to-quarto/index.qmd": {
+    "index.html": "e2863d41",
+    "index.tex": "2774216d"
   }
 }

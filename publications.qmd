@@ -5,10 +5,6 @@ title-block-banner: true
 page-layout: full
 comments: false
 citation: false
-page-layout: article
-# bibliography: papers.bib
-# nocite: |
-#   @*
 ---
 
 ### 2022
@@ -33,14 +29,6 @@ page-layout: article
 
 ### 2018
 1. **Success Novel of Integrating Pulsed Neutron and Comprehensive Production Data Analysis to Optimize Well Production, Indonesia.** Aditya Arie Wijaya and Muhammad Bagir. SPWLA Asia Pacific Symposium Bogor, Indonesia, 2018. [SPWLA-2018-1841](https://onepetro.org/SPWLAAPTS/proceedings-abstract/APTS18/All-APTS18/SPWLA-2018-1841/28836)
-
-
-
-
-
-
-
-
 
 
 
